@@ -1,0 +1,154 @@
+* {
+	font-family: Arial, Verdana, sans-serif;
+	color: #CCFF99;
+	text-align: center;
+}
+
+
+
+#header h1 {
+	/* position: fixed; */
+	/* top: 0px; */
+	/* z-index: 50; */
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+body {
+	background-image: url("../images/ufo-flying_00442786.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+#outer-container {
+	opacity: 0.6;
+	
+}
+
+#nav, #feature, .article, #footer {
+	background-color: #003300;
+	/* background-color: #efefef; */
+	margin-top: 20px;
+	padding: 10px 0px 5px 0px;
+	/*opacity: 0.6;*/
+	
+}
+
+/*#feature, .article {
+	height: 100px; 
+}*/
+
+.smallcaps {
+	font-variant: small-caps;
+}
+
+li {
+	display: inline;
+	padding: 5px;
+}
+
+ul.triangle-bullets {
+	margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+} 
+
+/* #patterns ul {
+	margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+} */
+
+/*#patterns ul li {
+	display: block;
+	text-align: left;
+	
+}*/
+
+ul.triangle-bullets li {
+	display: block;
+	text-align: left;
+	margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+
+/* #patterns ul li:before { 
+    content: "";
+    /*border-color: transparent #111;
+	border-color: transparent #ffffff;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}*/
+
+ul.triangle-bullets li:before {
+	content: "";
+    /*border-color: transparent #111; */
+	border-color: transparent #ffffff;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+
+ul.link-bullets {
+	margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: disc;
+	list-style-image: url("../images/link-bullet.ico");
+	/*text-align: left;*/
+}
+
+ul.link-bullets li {
+	display: block;
+	text-align: left;
+	/*margin: 0.75em 0;*/
+    /*padding: 0 1em;*/
+    /*list-style: none;*/
+	
+	
+}
+
+ul.link-bullets li:before {
+	/*content: "";*/
+	content: url("../images/link-bullet.ico");
+	/*border-color: transparent #ffffff;*/
+    /*border-style: solid;*/
+    /*border-width: 0.35em 0 0.35em 0.45em;*/
+    display: block;
+    height: 0;
+    /*height: 32px;*/
+	/*width: 32px;*/
+	width: 0;
+    left: -2em;
+	/*left: 0;*/
+	top: -0.6em;
+    /*top: 0.9em;*/
+    position: relative;
+	
+}
+
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #003300;
+	color: #ffffff;
+	border-bottom: 3px dotted #0088dd;
+}
+
